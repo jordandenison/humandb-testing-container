@@ -1,0 +1,25 @@
+{
+  "name": "testing-container",
+  "version": "1.0.0",
+  "description": "Runs integration tests on a HumanDB",
+  "main": "src/server.js",
+  "scripts": {
+    "lint": "standard --fix",
+    "start": "ava",
+    "test": "ava"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@feathersjs/authentication-client": "^1.0.2",
+    "@feathersjs/feathers": "^3.1.0",
+    "@feathersjs/socketio-client": "^1.0.2",
+    "bluebird": "^3.5.3",
+    "socket.io-client": "^2.0.4"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "nodemon": "^1.18.6",
+    "standard": "^12.0.1"
+  }
+}
